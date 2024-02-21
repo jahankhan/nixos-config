@@ -124,8 +124,7 @@ in {
     config = {
       whitelist = {
         prefix= [
-          "$HOME/code/go/src/github.com/hashicorp"
-          "$HOME/code/go/src/github.com/mitchellh"
+          "$HOME/code/go/src/github.com/jahankhan"
         ];
 
         exact = ["$HOME/.envrc"];
@@ -172,8 +171,8 @@ in {
 
   programs.git = {
     enable = true;
-    userName = "Mitchell Hashimoto";
-    userEmail = "mitchell.hashimoto@gmail.com";
+    userName = "Jahan Khan";
+    userEmail = "jahanatakhan@gmail.com";
     signing = {
       key = "523D5DC389D273BC";
       signByDefault = true;
